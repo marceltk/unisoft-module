@@ -34,7 +34,8 @@
     }
   },
   "config": {
-    "bin-dir": "bin"
+    "bin-dir": "bin",
+    "vendor-dir": "unisoft"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
