@@ -1,0 +1,41 @@
+{
+  "name": "marceltk/unisoft-module",
+  "type": "library",
+  "description": "Módulo padrão do sistema integrado",
+  "keywords": [
+    "Unisoft"
+  ],
+  "license": "GNU",
+  "homepage": "https://www.unisoft.net.br/",
+  "authors": [
+    {
+      "name": "Marcel Silva",
+      "email": "phpmarcel@gmail.com",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "php": "^5.3 || ^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "extra": {
+    "zf": {
+      "module": "Unisoft"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Unisoft\\": [
+        "src/",
+        "test/"
+      ]
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
