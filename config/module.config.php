@@ -32,7 +32,7 @@ return [
             'routes' => [
                 'crawler' => [
                     'options' => [
-                        'type' => 'simple',
+                        'type' => 'Simple',
                         'route' => 'crawler index [--verbose|-v]',
                         'defaults' => [
                             'controller' => 'Crawler\Controller\Index',
@@ -59,7 +59,7 @@ return [
                 'may_terminate' => true,
                 'child_routes' => [
                     'default' => [
-                        'type' => 'Zend\Mvc\Router\Http\Wildcard',
+                        'type' => 'Wildcard',
                         'options' => [
                             'key_value_delimiter' => '/',
                             'param_delimiter' => '/',
@@ -77,6 +77,7 @@ return [
         'template_map' => [
             'layout/layout' => __DIR__ . '/../view/crawler.phtml',
             'unisoft/index/index' => __DIR__ . '/../view/index/index.phtml',
+            'unisoft/crawler/index/index' => __DIR__ . '/../view/index/index.phtml',
         ],
         'template_path_stack' => [
             __DIR__ . '/../view',

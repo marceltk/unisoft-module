@@ -2,6 +2,7 @@
 
 namespace Unisoft;
 
+use Zend\Console\Adapter\AdapterInterface as Console;
 use Zend\EventManager\EventInterface;
 
 class Module
