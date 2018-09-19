@@ -19,7 +19,7 @@
     "marceltk/elephant-io-module": "^1.1.0",
     "marceltk/rabbitmq-module": "1.1.3",
     "marceltk/util-module": "^1.0",
-    "marceltk/unisoft-pfbc": "^1.0.0"
+    "marceltk/unisoft-pfbc": "^1.1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0"
